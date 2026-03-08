@@ -20,7 +20,7 @@
         {
           "id": "net.fabricmc:fabric-loader:0.18.4",
           "name": "Fabric Loader",
-          "type": "Library",
+          "type": "ForgeModLoader",
           "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
             "size": 1115000,
@@ -32,9 +32,9 @@
           "name": "Minecraft Client",
           "type": "Library",
           "artifact": {
-            "url": "https://launcher.mojang.com/v1/objects/",
-            "size": 0,
-            "MD5": "0"
+            "url": "https://launcher.mojang.com/v1/objects/abc/def1234567890",
+            "size": 123456789,
+            "MD5": "clientmd5hash"
           }
         }
       ]
