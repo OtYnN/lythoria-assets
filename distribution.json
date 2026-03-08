@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "1406324491549802496",
+    "smallImageText": "LythoriaMC",
+    "smallImageKey": "logo"
+  },
+  "servers": [
+    {
+      "id": "lythoriamc",
+      "name": "LythoriaMC",
+      "description": "LythoriaMC Resmi Sunucusu - 1.21.4",
+      "address": "lythoriamc.com:25565",
+      "minecraftVersion": "1.21.4",
+      "listenPort": 25565,
+      "autoConnect": true,
+      "discord": {
+        "shortId": "lythoria",
+        "largeImageText": "LythoriaMC'de Macerada",
+        "largeImageKey": "banner"
+      },
+      "modules": [
+        {
+          "id": "fabric-loader",
+          "name": "Fabric Loader (1.21.4)",
+          "type": "Library",
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
+            "size": 0
+          }
+        },
+        {
+          "id": "simple-voice-chat",
+          "name": "Sesli Sohbet (Proximity)",
+          "type": "Library",
+          "artifact": {
+            "url": "https://github.com/henkelmax/simple-voice-chat/releases/download/fabric-1.21.4-2.5.25/voicechat-fabric-1.21.4-2.5.25.jar",
+            "size": 0
+          }
+        },
+        {
+          "id": "sodium",
+          "name": "Sodium (Optimizasyon)",
+          "type": "Library",
+          "artifact": {
+            "url": "https://github.com/CaffeineMC/sodium-fabric/releases/download/mc1.21.4-0.6.0-beta.1/sodium-fabric-1.21.4-0.6.0-beta.1.jar",
+            "size": 0
+          }
+        }
+      ]
+    }
+  ]
+}
