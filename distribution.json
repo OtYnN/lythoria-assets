@@ -5,16 +5,11 @@
     {
       "id": "lythoriamc",
       "name": "LythoriaMC",
-      "description": "LythoriaMC Resmi Sunucusu - 1.21.4",
+      "description": "LythoriaMC Sunucusu",
       "address": "lythoriamc.com:25565",
       "minecraftVersion": "1.21.4",
       "listenPort": 25565,
       "autoConnect": true,
-      "discord": {
-        "shortId": "lythoria",
-        "largeImageText": "LythoriaMC'de Macerada",
-        "largeImageKey": "banner"
-      },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.9",
