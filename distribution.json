@@ -18,14 +18,23 @@
       },
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.18.4",
-          "name": "Fabric Loader 0.18.4",
-          "type": "ForgeModLoader",
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader",
+          "type": "Library",
           "required": true,
           "artifact": {
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
-            "size": 1115000,
-            "MD5": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
+            "size": 470251
+          }
+        },
+        {
+          "id": "fabric-api",
+          "name": "Fabric API",
+          "type": "ForgeMod",
+          "required": true,
+          "artifact": {
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.115.1+1.21.4/fabric-api-0.115.1+1.21.4.jar",
+            "size": 2100000
           }
         }
       ]
