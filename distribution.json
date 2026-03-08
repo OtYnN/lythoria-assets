@@ -10,6 +10,7 @@
       "minecraftVersion": "1.21.4",
       "listenPort": 25565,
       "autoConnect": true,
+      "mainServer": true,
       "discord": {
         "shortId": "lythoria",
         "largeImageText": "LythoriaMC'de Macerada",
@@ -22,7 +23,18 @@
           "type": "Library",
           "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
-            "size": 1115000
+            "size": 1115000,
+            "MD5": "abc123"
+          }
+        },
+        {
+          "id": "net.minecraft:client:1.21.4",
+          "name": "Minecraft Client",
+          "type": "Library",
+          "artifact": {
+            "url": "https://launcher.mojang.com/v1/objects/",
+            "size": 0,
+            "MD5": "0"
           }
         }
       ]
