@@ -13,28 +13,30 @@
       "mainServer": true,
       "discord": {
         "shortId": "lythoria",
-        "largeImageText": "LythoriaMC'de Macerada",
+        "largeImageText": "LythoriaMC'de Oyna",
         "largeImageKey": "banner"
       },
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.4",
-          "name": "Fabric Loader",
+          "name": "Fabric Loader 0.18.4",
           "type": "ForgeModLoader",
+          "required": true,
           "artifact": {
             "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar",
             "size": 1115000,
-            "MD5": "abc123"
+            "MD5": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
           }
         },
         {
-          "id": "net.minecraft:client:1.21.4",
-          "name": "Minecraft Client",
+          "id": "net.fabricmc:fabric-api:0.102.0+1.21.4",
+          "name": "Fabric API",
           "type": "Library",
+          "required": false,
           "artifact": {
-            "url": "https://launcher.mojang.com/v1/objects/abc/def1234567890",
-            "size": 123456789,
-            "MD5": "clientmd5hash"
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/0.102.0+1.21.4/fabric-api-0.102.0+1.21.4.jar",
+            "size": 5000000,
+            "MD5": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
           }
         }
       ]
